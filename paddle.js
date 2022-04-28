@@ -25,4 +25,14 @@ class paddle
             return true;
         return false;
     }
+
+    draw()
+    {
+        rect(this.xcenter, this.ycenter, this.width, this.width);
+    }
+
+    update()
+    {
+        
+    }
 }
