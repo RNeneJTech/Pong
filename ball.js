@@ -1,8 +1,8 @@
 class ball
 {
-    constructor(radius, xcenter, ycenter, xspeed, yspeed)
+    constructor(aradius, xcenter, ycenter, xspeed, yspeed)
     {
-        this.radius = radius;
+        this.radius = aradius;
         this.xcenter = xcenter;
         this.ycenter = ycenter;
         this.xspeed = xspeed;
