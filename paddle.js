@@ -18,8 +18,16 @@ class paddle
     set set_width(pwidth) { this.width = pwidth;}
     set set_height(pheight) { this.height = pheight;}
 
-    update_speed_x(val) { this.xcenter += val;}
-    update_speed_y(val) { this.ycenter += val;}
+    update_speed_x(val) { 
+        if (this.xcenter - this.width < 0
+            || this.xcenter + this.width > width) return;
+        this.xcenter += val;
+    }
+    update_speed_y(val) {
+        if (this.ycenter - this.height < 0
+            || this.ycenter + this.height > height)
+        this.ycenter += val;
+    }
 
     collides(ball)
     {
