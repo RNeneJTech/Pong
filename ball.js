@@ -14,7 +14,7 @@ class ball
     get get_x_speed() { return this.xspeed;}
     get get_y_speed() { return this.yspeed;}
 
-    set set_radius(radius) { this.radius = radius;}
+    set set_radius(aradius) { this.radius = aradius;}
     set set_x_center(xcenter) { this.xcenter = xcenter;}
     set set_y_center(ycenter) { this.ycenter = ycenter;}
     set set_x_speed(xspeed) { this.xspeed = xspeed;}
