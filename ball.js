@@ -36,11 +36,11 @@ class ball
     
     generate_x_collision()
     {
-        this.xcenter = -this.xcenter
+        this.xspeed = -this.xspeed
     }
 
     generate_y_collision()
     {
-        this.ycenter = -this.ycenter
+        this.yspeed = -this.yspeed
     }
 }
