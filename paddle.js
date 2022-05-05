@@ -25,7 +25,7 @@ class paddle
     }
     update_speed_y(val) {
         if (this.ycenter - this.height < 0
-            || this.ycenter + this.height > height)
+            || this.ycenter + this.height > height) return;
         this.ycenter += val;
     }
 
