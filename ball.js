@@ -27,7 +27,7 @@ class ball
     
     update()
     {
-        if (this.ycenter+this.radius < 0 && this.centery+this.radius > height)
+        if (this.ycenter + this.radius < 0 && this.ycenter + this.radius > this.height)
             this.generate_y_collision();
 
         this.xcenter += this.xspeed;
